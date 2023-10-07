@@ -1,10 +1,4 @@
-- 👋 Hi, I’m @WalnerysCarmona
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# enmanuel4real.github.io
+Welcome to my curriculum
 
-<!---
-WalnerysCarmona/WalnerysCarmona is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This Curriculum was created with basic HTML and CSS hosted in Github Pages
