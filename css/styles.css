@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'robotoRegular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+* {
+    font-family: 'robotoRegular';
+    color: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    padding: 50px;
+}
+
+ol, ol > li {
+    list-style-type: disc;
+}
+
+h2 {
+    text-align: center;
+}
+
+.name {
+    margin-bottom: 0px;
+}
+
+.roll {
+    margin-top: 0px;
+}
+
+.image {
+    width: 150px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.box-shadow-1 {
+    box-shadow: 0px 2.5px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.align-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.row {
+    display: block;
+    overflow: hidden;
+}
+
+.col {
+    float: left;
+    box-sizing: border-box;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.hidden-on-big {
+    display: none;
+}
+
+.hidden-on-small {
+    display: list-item;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 20px;
+    }
+    
+    .col {
+        float:none;
+        display: block;
+        width: 100%;
+    }
+
+    .hidden-on-big {
+        display: list-item;
+    }
+
+    .hidden-on-small {
+        display: none;
+    }
+    
+    ol, ol > li {
+        margin-left: -10px;
+    }
+}
